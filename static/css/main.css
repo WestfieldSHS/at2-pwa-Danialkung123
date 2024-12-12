@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="styles.css">
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+}
+ 
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+ 
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+ 
+.shoe {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+ 
+.shoe:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+ 
+.shoe h2 {
+    color: #333;
+    margin: 10px 0;
+}
+ 
+.shoe p {
+    color: #555;
+    margin: 5px 0;
+}
+ 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
